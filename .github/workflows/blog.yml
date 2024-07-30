@@ -1,8 +1,9 @@
-Copyname: Update Blog
+name: Update Blog
 on:
   schedule:
     - cron: '0 */48 * * *'  # Runs every 48 hours
   workflow_dispatch:  # Allows manual triggering
+
 jobs:
   update_blog:
     runs-on: ubuntu-latest
