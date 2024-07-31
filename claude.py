@@ -92,18 +92,15 @@ unsplash_image_tool = UnsplashImageTool()
 # Define agents
 researcher = Agent(
     role='AI Researcher',
-    goal='Research the latest developments and strategies in sustainable development, Biodiversity Conservation,
-Climate Change Mitigation.',
-    backstory='You are an expert in sustainable development with a deep understanding of Biodiversity Conservation,
-Climate Change Mitigation,environmental, economic, and community well-being. You stay updated with the latest trends and breakthroughs in sustainability.',
+    goal='Research the latest developments and strategies in sustainable development, Biodiversity Conservation,Climate Change Mitigation.',
+    backstory='You are an expert in sustainable development with a deep understanding of Biodiversity Conservation,Climate Change Mitigation,environmental, economic, and community well-being. You stay updated with the latest trends and breakthroughs in sustainability.',
     llm=llm,
     verbose=True
 )
 
 writer = Agent(
     role='Content Writer',
-    goal='Create engaging and informative content on sustainable developmen or Biodiversity Conservation,
-or Climate Change Mitigation.',
+    goal='Create engaging and informative content on sustainable developmen or Biodiversity Conservationor Climate Change Mitigation.',
     backstory='You are a talented writer with a knack for explaining complex concepts in an accessible way. You enjoy crafting compelling narratives that captivate your audience and highlight the interconnectedness of environmental health, economic prosperity, and community well-being.',
     llm=llm,
     verbose=True
